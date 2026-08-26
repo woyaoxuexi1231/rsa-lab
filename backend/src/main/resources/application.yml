@@ -1,0 +1,10 @@
+server:
+  port: 8086
+
+spring:
+  application:
+    name: rsa-lab
+
+logging:
+  level:
+    com.lab.rsa: DEBUG
