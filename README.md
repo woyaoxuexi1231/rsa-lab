@@ -1,6 +1,10 @@
 # RSA Lab
 
-从 Study Hub 抽离的 RSA 混合加密学习实验室：后端 Spring Boot 提供 v1→v5 API，前端 Vue 对照试跑。
+## 简介 / Introduction
+
+**中文** — 从 Study Hub 抽离的 RSA 混合加密学习实验室。后端 Spring Boot 提供 v1→v5 五档 API：RSA 包 AES 密钥、SHA256withRSA 签名、AES-CBC+IV、多版本密钥绑定、timestamp+nonce+HMAC 防重放；前端 Vue 3 对照试跑，逐层理解安全加固。
+
+**English** — An RSA hybrid-encryption learning lab split from Study Hub. The Spring Boot backend exposes five progressive API tiers (v1→v5) — RSA-wrapped AES keys, SHA256withRSA signing, AES-CBC+IV, multi-version key tokens, and timestamp+nonce+HMAC replay protection — with a Vue 3 frontend to run and compare each tier side by side.
 
 ## 目录结构
 
